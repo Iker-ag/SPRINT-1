@@ -8,6 +8,11 @@
 <body>
     <header>
         <h1>Empreses del Montsià</h1>
+        <nav>
+            <a href="index.html">Inici</a>
+            <a href="questionari.html">Questionari</a>
+            <a href="index_ia.html">Inteligencia Artifical</a>
+        </nav>
     </header>
     <main>
         <section>
@@ -15,162 +20,9 @@
             <div id="empreses-container"></div>
         </section>
 <div class="container"></div>
-<div>
-    <bodyform>
-        <h2 class="titol">Aspectos Sociales</h1>
-        <form id="questionnaireForm">
-            <!-- Dades bàsiques de l'empresa -->
-            <div class="section">
-                <h2>Dades de l'empresa</h2>
-                <label for="empresa" style="display:block">Nom de l'empresa:</label>
-                <input type="text" id="empresa" name="empresa" required>
-                <label for="telefon" style="display:block">Telèfon de contacte:</label>
-                <input type="text" id="telefon" name="telefon" required>
-                <label for="email" style="display:block">Correu electrònic:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="direccio" style="display:block">Adreça física:</label>
-                <input type="text" id="direccio" name="direccio" required>
-            </div>
-
-            <hr> <!-- Separació visual -->
-
-            <!-- Dades personals -->
-            <div class="section">
-                <h2>Dades personals</h2>
-                <label for="nom" style="display:block">Nom:</label>
-                <input type="text" id="nom" name="nom" required>
-                <label for="cp" style="display:block">Codi postal:</label>
-                <input type="text" id="cp" name="cp" required>
-                <label for="sector" style="display:block">Sector:</label>
-                <input type="text" id="sector" name="sector" required>
-                <label for="empleats" style="display:block">Número d'empleats:</label>
-                <input type="number" id="empleats" name="empleats" required>
-            </div>
-
-            <hr> <!-- Separació visual -->
-
-            <!-- Preguntes del qüestionari -->
-            <div class="section">
-                <h2>Qüestionari de Sostenibilitat</h2>
-
-<!-- Empleados/Condiciones laborales -->
-<div class="question">
-    <p class="p1">1. ¿Cómo afronta su empresa los asuntos relacionados a la gestión de las condiciones laborales?</p>
-    <label class="cercle"><input type="radio" name="empleados_condiciones" value="No aplica / No cumple" required> No aplica / No cumple</label>
-    <label class="cercle"><input type="radio" name="empleados_condiciones" value="Cumple la regulación en materia laboral"> Cumple la regulación en materia laboral</label>
-    <label class="cercle"><input type="radio" name="empleados_condiciones" value="Establece planes y objetivos para mejorar"> Establece planes y objetivos para mejorar</label>
-    <label class="cercle"><input type="radio" name="empleados_condiciones" value="Forma parte de la estrategia de la empresa"> Forma parte de la estrategia de la empresa</label>
-</div>
-
-<!-- Empleados/Diversidad y bienestar -->
-<div class="question">
-    <p class="p1">2. ¿Cómo gestiona su organización los aspectos relacionados con la diversidad y el bienestar emocional?</p>
-    <label class="cercle"><input type="radio" name="empleados_diversidad" value="No aplica / No cumple" required> No aplica / No cumple</label>
-    <label class="cercle"><input type="radio" name="empleados_diversidad" value="Cumple la regulación en materia de diversidad"> Cumple la regulación en materia de diversidad</label>
-    <label class="cercle"><input type="radio" name="empleados_diversidad" value="Establece prácticas y objetivos para mejorar"> Establece prácticas y objetivos para mejorar</label>
-    <label class="cercle"><input type="radio" name="empleados_diversidad" value="Forma parte de la estrategia de la empresa"> Forma parte de la estrategia de la empresa</label>
-</div>
-
-<!-- Empleados/Talento -->
-<div class="question">
-    <p class="p1">3. ¿Cómo gestiona su organización los aspectos relacionados con el desarrollo profesional?</p>
-    <label class="cercle"><input type="radio" name="empleados_talento" value="No aplica / No cumple" required> No aplica / No cumple</label>
-    <label class="cercle"><input type="radio" name="empleados_talento" value="Cumple la regulación en materia de formación"> Cumple la regulación en materia de formación</label>
-    <label class="cercle"><input type="radio" name="empleados_talento" value="Establece planes y objetivos para mejorar"> Establece planes y objetivos para mejorar</label>
-    <label class="cercle"><input type="radio" name="empleados_talento" value="Forma parte de la estrategia de la empresa"> Forma parte de la estrategia de la empresa</label>
-</div>
-
-<!-- Proveedores -->
-<div class="question">
-    <p class="p1">4. ¿Se tienen en cuenta aspectos sociales y ambientales en las decisiones de compra de su empresa?</p>
-    <label class="cercle"><input type="radio" name="proveedores" value="No aplica / No se gestiona" required> No aplica / No se gestiona</label>
-    <label class="cercle"><input type="radio" name="proveedores" value="Cumple con la regulación en las condiciones de contrato"> Cumple con la regulación en las condiciones de contrato</label>
-    <label class="cercle"><input type="radio" name="proveedores" value="Incorpora criterios sociales y ambientales en las compras"> Incorpora criterios sociales y ambientales en las compras</label>
-    <label class="cercle"><input type="radio" name="proveedores" value="Forma parte de la estrategia de la empresa"> Forma parte de la estrategia de la empresa</label>
-</div>
-
-<!-- Clientes -->
-<div class="question">
-    <p class="p1">5. ¿Cómo afronta su empresa los asuntos relacionados con el cliente?</p>
-    <label class="cercle"><input type="radio" name="clientes" value="No aplica" required> No aplica</label>
-    <label class="cercle"><input type="radio" name="clientes" value="Cumple con la regulación en salud y seguridad de la fabricación"> Cumple con la regulación en salud y seguridad de la fabricación</label>
-    <label class="cercle"><input type="radio" name="clientes" value="Establece objetivos para mejorar los estándares de seguridad"> Establece objetivos para mejorar los estándares de seguridad</label>
-    <label class="cercle"><input type="radio" name="clientes" value="Forma parte de la estrategia de la empresa"> Forma parte de la estrategia de la empresa</label>
-</div>
-
-<!-- Consumidor -->
-<div class="question">
-    <p class="p1">6. ¿Cómo asume su empresa los asuntos relacionados con la información que recibe el consumidor?</p>
-    <label class="cercle"><input type="radio" name="consumidor" value="No aplica" required> No aplica</label>
-    <label class="cercle"><input type="radio" name="consumidor" value="Cumple con la regulación en relación al cliente"> Cumple con la regulación en relación al cliente</label>
-    <label class="cercle"><input type="radio" name="consumidor" value="Establece criterios de sostenibilidad en la comunicación"> Establece criterios de sostenibilidad en la comunicación</label>
-    <label class="cercle"><input type="radio" name="consumidor" value="Involucra al consumidor en su estrategia social y ambiental"> Involucra al consumidor en su estrategia social y ambiental</label>
-</div>          
-                <button type="submit">Enviar</button>
-            </div>
-        </form>
-
-    </bodyform>
-    </div>
-    <div id="formOutput" style="display:none;">
-        <h2>Dades en format XML</h2>
-        <hr>
-        <pre id="outputContent"></pre>
-    </div>
     </main>
 
 <script>
-       // Funció per capturar el formulari i mostrar-lo a la mateixa pàgina en format XML
-       document.getElementById('questionnaireForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Evitar que el formulari es enviï a un servidor
-            
-            //Ni idea de a que hace referencia el this
-            const formData = new FormData(this);
-    
-            // Generar l'estructura XML personalitzada
-            let xmlOutput = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n`;
-            xmlOutput += `<empresas>\n`;
-            xmlOutput += `  <empresa>\n`;
-            xmlOutput += `    <nom>${formData.get('nom')}</nom>\n`;
-            xmlOutput += `    <cp>${formData.get('cp')}</cp>\n`;
-            xmlOutput += `    <sector>${formData.get('sector')}</sector>\n`;
-            xmlOutput += `    <empleats>${formData.get('empleats')}</empleats>\n`;
-            xmlOutput += `    <nombre>${formData.get('empresa')}</nombre>\n`;
-            xmlOutput += `    <telefono>${formData.get('telefon')}</telefono>\n`;
-            xmlOutput += `    <correo>${formData.get('email')}</correo>\n`;
-            xmlOutput += `    <direccion>${formData.get('direccio')}</direccion>\n`;
-    
-            // Afegir totes les preguntes i respostes (13 preguntes)
-            xmlOutput += `    <pregunta1>${formData.get('q1')}</pregunta1>\n`;
-            xmlOutput += `    <pregunta2>${formData.get('q2')}</pregunta2>\n`;
-            xmlOutput += `    <pregunta3>${formData.get('q3')}</pregunta3>\n`;
-            xmlOutput += `    <pregunta4>${formData.get('q4')}</pregunta4>\n`;
-            xmlOutput += `    <pregunta5>${formData.get('q5')}</pregunta5>\n`;
-            xmlOutput += `    <pregunta6>${formData.get('q6')}</pregunta6>\n`;
-            xmlOutput += `    <pregunta7>${formData.get('q7')}</pregunta7>\n`;
-            xmlOutput += `    <pregunta8>${formData.get('q8')}</pregunta8>\n`;
-            xmlOutput += `    <pregunta9>${formData.get('q9')}</pregunta9>\n`;
-            xmlOutput += `    <pregunta10>${formData.get('q10')}</pregunta10>\n`;
-            xmlOutput += `    <pregunta11>${formData.get('q11')}</pregunta11>\n`;
-            xmlOutput += `    <pregunta12>${formData.get('q12')}</pregunta12>\n`;
-            xmlOutput += `    <pregunta13>${formData.get('q13')}</pregunta13>\n`;
-    
-            // Dades personals
-
-    
-            xmlOutput += `  </empresa>\n`;
-            xmlOutput += `</empresas>\n`;
-            
-
-            
-            // Mostra el resultat a la pàgina en format XML
-            document.getElementById('outputContent').textContent = xmlOutput;
-            //Canvia l'estat del div per mostrar el resultat
-            document.getElementById('formOutput').style.display = 'block';
-
-            //Amaga el formulari
-            document.getElementById('questionnaireForm').style.display = 'none';
-        });
     function importarXML() {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
@@ -303,6 +155,22 @@
         }
     }
 
+    nav {
+        margin-right: 20px;
+        text-align: right;
+    }
+    nav a {
+        margin-left: 15px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        transition: color 0.3s ease, background-color 0.3s ease;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    nav a:hover {
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+    }
     
     
 </style>
