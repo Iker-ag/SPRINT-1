@@ -1,0 +1,47 @@
+<empreses>
+    <empresa>
+        <nom>Impremta Salvadó</nom>
+        <contacte>
+            <telèfon>+34977704878</telèfon>
+            <correu>info@impremtasalvado.com</correu>
+            <direcció>C. Murillo, 13</direcció>
+            <municipi>Amposta</municipi>
+        </contacte>
+    </empresa>
+    <empresa>
+        <nom>Fruites i Verdures Marga</nom>
+        <contacte>
+            <telèfon>+34647542346</telèfon>
+            <correu>fruitesmarga@gmail.com</correu>
+            <direcció>C. Tarragona, 19</direcció>
+            <municipi>Amposta</municipi>
+          </contacte>
+        </empresa>
+    <empresa>
+        <nom>Fruites Barberà</nom>
+        <contacte>
+            <telèfon>+34977588903</telèfon>
+            <correu>comercial@fruitesbarbera.com</correu>
+            <direcció>C. Amèrica, 41</direcció>
+            <municipi>Amposta</municipi>
+        </contacte>
+    </empresa>
+    <empresa>
+        <nom>BAR HORT DEL REI</nom>
+        <contacte>
+            <telèfon>+34877015107</telèfon>
+            <correu>alina.hort.del.rei@gmail.com</correu>
+            <direcció>Cen. C. Hort Rei Sant Isidre, Local 9-10</direcció>
+            <municipi>La Ràpita</municipi>
+        </contacte>
+    </empresa>
+    <empresa>
+        <nom>SEQUESSOS</nom>
+        <contacte>
+            <telèfon>+34977746910</telèfon>
+            <correu>robert87-aldea@hotmail.com</correu>
+            <direcció>Sant Josep, 72</direcció>
+            <municipi>La Ràpita</municipi>
+        </contacte>
+    </empresa>
+</empreses>
